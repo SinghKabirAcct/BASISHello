@@ -14,7 +14,7 @@
 		062A9372282D838300926860 /* helloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062A9371282D838300926860 /* helloUITests.swift */; };
 		062A9374282D838300926860 /* helloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062A9373282D838300926860 /* helloUITestsLaunchTests.swift */; };
 		062A9387282EC63E00926860 /* ok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 062A9386282EC63E00926860 /* ok.mp3 */; };
-		0684A54E282EDDF7005CB55E /* Stopwatchmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0684A54D282EDDF7005CB55E /* Stopwatchmanager.swift */; };
+		0684A54E282EDDF7005CB55E /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0684A54D282EDDF7005CB55E /* StopWatch.swift */; };
 		0684A550282EDE85005CB55E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0684A54F282EDE85005CB55E /* AudioManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +46,7 @@
 		062A9371282D838300926860 /* helloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloUITests.swift; sourceTree = "<group>"; };
 		062A9373282D838300926860 /* helloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		062A9386282EC63E00926860 /* ok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ok.mp3; sourceTree = "<group>"; };
-		0684A54D282EDDF7005CB55E /* Stopwatchmanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatchmanager.swift; sourceTree = "<group>"; };
+		0684A54D282EDDF7005CB55E /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 		0684A54F282EDE85005CB55E /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +101,7 @@
 				062A9356282D838000926860 /* helloApp.swift */,
 				062A9358282D838000926860 /* ContentView.swift */,
 				062A9386282EC63E00926860 /* ok.mp3 */,
-				0684A54D282EDDF7005CB55E /* Stopwatchmanager.swift */,
+				0684A54D282EDDF7005CB55E /* StopWatch.swift */,
 				062A935A282D838300926860 /* Assets.xcassets */,
 				0684A54F282EDE85005CB55E /* AudioManager.swift */,
 			);
@@ -256,7 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				062A9359282D838000926860 /* ContentView.swift in Sources */,
-				0684A54E282EDDF7005CB55E /* Stopwatchmanager.swift in Sources */,
+				0684A54E282EDDF7005CB55E /* StopWatch.swift in Sources */,
 				0684A550282EDE85005CB55E /* AudioManager.swift in Sources */,
 				062A9357282D838000926860 /* helloApp.swift in Sources */,
 			);
