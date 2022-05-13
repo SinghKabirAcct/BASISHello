@@ -4,8 +4,6 @@
 //
 //  Created by Kabir Singh on 5/12/22.
 //
-import AVKit
-import AVFoundation
 import SwiftUI
 
 @main

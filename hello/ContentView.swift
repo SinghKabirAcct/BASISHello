@@ -7,7 +7,6 @@
 
 
 import SwiftUI //adding base import
-import AVFoundation //adding audio import
 
 //This will hold all View Data
 struct ContentView: View {
@@ -34,36 +33,6 @@ struct ContentView: View {
     }
 }
 
-//Audio Code
-var player: AVAudioPlayer?
-
-func playSound() {
-    guard let url = Bundle.main.url(forResource: "ok", withExtension: "mp3") else { return }
-
-    do {
-        try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
-        try AVAudioSession.sharedInstance().setActive(true)
-
-        player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
-
-        guard let player = player else { return }
-
-        player.play()
-
-    } catch let error {
-        print(error.localizedDescription)
-    }
-}
-
-//Preview Code
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        Group {
-            ContentView()
-        }
-    }
-}
-
 //Buttom styling code for Content View
 struct TimerButton: View {
     
@@ -77,5 +46,14 @@ struct TimerButton: View {
             .padding(.vertical, 20)
             .padding(.horizontal, 90).overlay(RoundedRectangle(cornerRadius: 10).stroke(textCol))
             .background(buttonColor).cornerRadius(10)
+    }
+}
+
+//Preview Code
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        Group {
+            ContentView()
+        }
     }
 }
