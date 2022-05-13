@@ -10,11 +10,11 @@
 		062A9357282D838000926860 /* helloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062A9356282D838000926860 /* helloApp.swift */; };
 		062A9359282D838000926860 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062A9358282D838000926860 /* ContentView.swift */; };
 		062A935B282D838300926860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062A935A282D838300926860 /* Assets.xcassets */; };
-		062A935E282D838300926860 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062A935D282D838300926860 /* Preview Assets.xcassets */; };
 		062A9368282D838300926860 /* helloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062A9367282D838300926860 /* helloTests.swift */; };
 		062A9372282D838300926860 /* helloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062A9371282D838300926860 /* helloUITests.swift */; };
 		062A9374282D838300926860 /* helloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062A9373282D838300926860 /* helloUITestsLaunchTests.swift */; };
 		062A9387282EC63E00926860 /* ok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 062A9386282EC63E00926860 /* ok.mp3 */; };
+		0684A54E282EDDF7005CB55E /* Stopwatchmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0684A54D282EDDF7005CB55E /* Stopwatchmanager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +39,13 @@
 		062A9356282D838000926860 /* helloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloApp.swift; sourceTree = "<group>"; };
 		062A9358282D838000926860 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		062A935A282D838300926860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		062A935D282D838300926860 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		062A9363282D838300926860 /* helloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		062A9367282D838300926860 /* helloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloTests.swift; sourceTree = "<group>"; };
 		062A936D282D838300926860 /* helloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		062A9371282D838300926860 /* helloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloUITests.swift; sourceTree = "<group>"; };
 		062A9373282D838300926860 /* helloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		062A9386282EC63E00926860 /* ok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ok.mp3; sourceTree = "<group>"; };
+		0684A54D282EDDF7005CB55E /* Stopwatchmanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatchmanager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,18 +99,10 @@
 				062A9356282D838000926860 /* helloApp.swift */,
 				062A9358282D838000926860 /* ContentView.swift */,
 				062A9386282EC63E00926860 /* ok.mp3 */,
+				0684A54D282EDDF7005CB55E /* Stopwatchmanager.swift */,
 				062A935A282D838300926860 /* Assets.xcassets */,
-				062A935C282D838300926860 /* Preview Content */,
 			);
 			path = hello;
-			sourceTree = "<group>";
-		};
-		062A935C282D838300926860 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				062A935D282D838300926860 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		062A9366282D838300926860 /* helloTests */ = {
@@ -234,7 +226,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				062A935E282D838300926860 /* Preview Assets.xcassets in Resources */,
 				062A9387282EC63E00926860 /* ok.mp3 in Resources */,
 				062A935B282D838300926860 /* Assets.xcassets in Resources */,
 			);
@@ -262,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				062A9359282D838000926860 /* ContentView.swift in Sources */,
+				0684A54E282EDDF7005CB55E /* Stopwatchmanager.swift in Sources */,
 				062A9357282D838000926860 /* helloApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

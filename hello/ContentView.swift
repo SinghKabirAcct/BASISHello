@@ -6,39 +6,18 @@
 //
 
 
-import SwiftUI
-import AVFoundation
+import SwiftUI //adding base import
+import AVFoundation //adding audio import
 
+//This will hold all View Data
 struct ContentView: View {
-
-    class StopWatchManager: ObservableObject {
-        
-        @Published var secondsElapsed = 0.0
-        
-        var timer = Timer()
-        
-        var timerState = "normal"
-        
-        func start() {
-            if(timerState != "started"){
-                timer = Timer.scheduledTimer(withTimeInterval: 0.01, repeats: true) { timer in
-                    self.secondsElapsed = self.secondsElapsed + 0.01
-                    self.timerState = "started"
-                }
-                playSound()
-            }
-        }
-        func stop() {
-            timer.invalidate()
-            self.timerState = "normal"
-            player?.stop()
-        }
     
-    }
-    
+    //Observed Var because View needs to watch elapsed value for updates
     @ObservedObject var stopWatchManager = StopWatchManager()
     
     var body: some View {
+        
+        //Vertical Stack for View
         VStack {
             Text(String(format: "%.2f", stopWatchManager.secondsElapsed))
                 .font(.custom("Avenir", size: 40))
@@ -55,6 +34,7 @@ struct ContentView: View {
     }
 }
 
+//Audio Code
 var player: AVAudioPlayer?
 
 func playSound() {
@@ -75,6 +55,7 @@ func playSound() {
     }
 }
 
+//Preview Code
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
@@ -83,6 +64,7 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+//Buttom styling code for Content View
 struct TimerButton: View {
     
     let label: String
