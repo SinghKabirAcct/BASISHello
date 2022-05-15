@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  test2
+//  test2Menu(/*@START_MENU_TOKEN@*/"Menu"/*@END_MENU_TOKEN@*/) {
 //
 //  Created by Kabir Sahai on 3/28/21.
 //
@@ -20,8 +20,8 @@ struct ContentView: View {
         VStack {
             Text(String(format: "%.2f", stopWatchManager.secondsElapsed))
                 .font(.custom("Avenir", size: 40))
-                .padding(.top, 200)
-                .padding(.bottom, 100)
+                .padding(.top, 150)
+                .padding(.bottom, 75)
                 Button(action: {self.stopWatchManager.start()}) {
                     TimerButton(label: "Start", buttonColor: .black, textCol: .white)
                 }
@@ -32,7 +32,7 @@ struct ContentView: View {
         }
     }
 }
-
+    
 //Buttom styling code for Content View
 struct TimerButton: View {
     

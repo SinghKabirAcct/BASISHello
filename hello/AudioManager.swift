@@ -12,7 +12,7 @@ import AVFoundation //adding audio import
 var player: AVAudioPlayer?
 
 func playSound() {
-    guard let url = Bundle.main.url(forResource: "ok", withExtension: "mp3") else { return }
+    guard let url = Bundle.main.url(forResource: "ok2", withExtension: "mp3") else { return }
 
     do {
         try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)

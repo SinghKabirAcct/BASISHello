@@ -16,6 +16,7 @@
 		062A9387282EC63E00926860 /* ok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 062A9386282EC63E00926860 /* ok.mp3 */; };
 		0684A54E282EDDF7005CB55E /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0684A54D282EDDF7005CB55E /* StopWatch.swift */; };
 		0684A550282EDE85005CB55E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0684A54F282EDE85005CB55E /* AudioManager.swift */; };
+		0684A552282EF20A005CB55E /* ok2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0684A551282EF20A005CB55E /* ok2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		062A9386282EC63E00926860 /* ok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ok.mp3; sourceTree = "<group>"; };
 		0684A54D282EDDF7005CB55E /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 		0684A54F282EDE85005CB55E /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		0684A551282EF20A005CB55E /* ok2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ok2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +100,14 @@
 		062A9355282D838000926860 /* hello */ = {
 			isa = PBXGroup;
 			children = (
+				0684A553282EF2A3005CB55E /* Preview Content */,
 				062A9356282D838000926860 /* helloApp.swift */,
 				062A9358282D838000926860 /* ContentView.swift */,
-				062A9386282EC63E00926860 /* ok.mp3 */,
 				0684A54D282EDDF7005CB55E /* StopWatch.swift */,
-				062A935A282D838300926860 /* Assets.xcassets */,
 				0684A54F282EDE85005CB55E /* AudioManager.swift */,
+				0684A551282EF20A005CB55E /* ok2.mp3 */,
+				062A9386282EC63E00926860 /* ok.mp3 */,
+				062A935A282D838300926860 /* Assets.xcassets */,
 			);
 			path = hello;
 			sourceTree = "<group>";
@@ -123,6 +127,13 @@
 				062A9373282D838300926860 /* helloUITestsLaunchTests.swift */,
 			);
 			path = helloUITests;
+			sourceTree = "<group>";
+		};
+		0684A553282EF2A3005CB55E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0684A552282EF20A005CB55E /* ok2.mp3 in Resources */,
 				062A9387282EC63E00926860 /* ok.mp3 in Resources */,
 				062A935B282D838300926860 /* Assets.xcassets in Resources */,
 			);
